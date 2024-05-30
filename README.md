@@ -17,7 +17,7 @@ By the end of this article, you will be able to create custom-configured Azure V
 ```yaml
 module "vdi-module" {
 
-      source= "github.com/asrinandirin/Azure-Virtual-Desktop-with-Terraform"
+      source= "https://github.com/MelihSelamiUrkmezz/Shared-Image-VDI-Terraform.git"
       
       resource_group             = ""         // Resource group in which to create the Azure resources.
       location                   = ""         // The location/region where the session hosts are created.
@@ -26,9 +26,9 @@ module "vdi-module" {
       virtual_network_subnet_rg  = ""         // The resource group where the subnet live.
       network_security_group     = ""         // Network Security Group name that NIC will be bounded.
       vm_size                    = ""         // Specifies the size of the virtual machine.   
-      custom_image_version      = ""         // Custom image location
-      image_gallery_resource_group = ""   // Resource Group in which the Custom Image exists     
-      custom_image_name          = ""         // Custom image name
+      custom_image_version      = ""        
+      image_gallery_resource_group = ""    
+      custom_image_name          = ""         
       image_gallery_name = ""
       admin_username             = ""         // Local Admin Username
       admin_password             = ""         // Admin Password
