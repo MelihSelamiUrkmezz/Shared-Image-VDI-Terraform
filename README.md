@@ -17,7 +17,7 @@ By the end of this article, you will be able to create custom-configured Azure V
 ```yaml
 module "vdi-module" {
 
-      source= "https://github.com/MelihSelamiUrkmezz/Shared-Image-VDI-Terraform.git"
+      source= "https://github.com/MelihSelamiUrkmezz/Shared-Image-VDI-Terraform"
       
       resource_group             = ""         // Resource group in which to create the Azure resources.
       location                   = ""         // The location/region where the session hosts are created.
