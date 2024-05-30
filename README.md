@@ -26,9 +26,10 @@ module "vdi-module" {
       virtual_network_subnet_rg  = ""         // The resource group where the subnet live.
       network_security_group     = ""         // Network Security Group name that NIC will be bounded.
       vm_size                    = ""         // Specifies the size of the virtual machine.   
-      custom_image_location      = ""         // Custom image location
-      custom_image_resource_group_name = ""   // Resource Group in which the Custom Image exists     
+      custom_image_version      = ""         // Custom image location
+      image_gallery_resource_group = ""   // Resource Group in which the Custom Image exists     
       custom_image_name          = ""         // Custom image name
+      image_gallery_name = ""
       admin_username             = ""         // Local Admin Username
       admin_password             = ""         // Admin Password
       vm_name                    = ""         // Virtual Machine Name (prefix)
