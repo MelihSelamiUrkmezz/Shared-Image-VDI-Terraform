@@ -15,7 +15,7 @@ By the end of this article, you will be able to create custom-configured Azure V
 ### Module Usage
 
 ```yaml
-module "vdi-module" {
+module "vdi-module_1" {
 
       source= "https://github.com/MelihSelamiUrkmezz/Shared-Image-VDI-Terraform"
       
