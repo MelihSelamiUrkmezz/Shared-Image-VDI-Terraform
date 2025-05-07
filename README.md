@@ -22,6 +22,10 @@ module "vdi-module" {
       resource_group             = ""         // Resource group in which to create the Azure resources.
       location                   = ""         // The location/region where the session hosts are created.
       virtual_network_name       = ""         // Virtual Network Name that subnet live.
+      client_id                  = ""
+      client_secret              = ""
+      subscription_id            = ""
+      tenant_id                  = ""
       virtual_network_subnet     = ""         // Subnet name VM's will be deployed.
       virtual_network_subnet_rg  = ""         // The resource group where the subnet live.
       network_security_group     = ""         // Network Security Group name that NIC will be bounded.
