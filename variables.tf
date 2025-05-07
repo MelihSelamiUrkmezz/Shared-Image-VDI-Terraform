@@ -3,6 +3,26 @@ variable "resource_group" {
   default = ""
 }
 
+variable "client_id" {
+  description = "azure client id"
+  default = ""
+}
+
+variable "client_secret" {
+  description = "azure client secret"
+  default = ""
+}
+
+variable "subscription_id" {
+  description = "subs id"
+  default = ""
+}
+
+variable "tenant_id" {
+  description = "tenant id"
+  default = ""
+}
+
 variable "location" {
   description = "The location/region where the session hosts are created"
   default = ""
